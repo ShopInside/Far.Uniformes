@@ -21,8 +21,8 @@ body{
 }
 
 .link-bio img{
-    width: 150px;
-    height: 150px;
+    width: 145px;
+    height: 145px;
     border: 2px solid #fff;
     border-radius: 50%;
     padding: 2px;
@@ -55,4 +55,26 @@ body{
 .link-bio a:hover{
     background-color: #111111;
     color: #ff0000;
+}
+
+.link-segund{
+    margin-top: 10px;
+}
+
+.link-segund a{ 
+    background-color: #111111;
+    color: #fff;
+    font-size: 25px;
+    margin: 0 5px;
+    text-decoration: none;
+    border: 0px;
+    transition: 0.3s;
+}
+
+.link-segund i{
+    transition: 0.3s;
+}
+
+.link-segund i:hover{
+    transform: scale(1.3);
 }
