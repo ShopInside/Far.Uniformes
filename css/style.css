@@ -17,13 +17,20 @@ body{
     width: 90%;
     margin: 40px auto;
     gap: 20px;
+    vertical-align: middle;
 }
 
 .link-bio img{
     width: 150px;
     height: 150px;
-    border: solid 1px #fff;
+    border: 2px solid #fff;
     border-radius: 50%;
+    padding: 2px;
+    transition: 0.3s;
+}
+
+.link-bio img:hover{
+    border-color: #ff0000;
 }
 
 .link-bio h1{
